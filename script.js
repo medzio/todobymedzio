@@ -94,14 +94,6 @@ const editTodo = e => {
 
 const closePopup = () => {
 	popup.style.display = 'none'
-	let tabUl = ulList.querySelectorAll('li')
-	for (let i = 0; i <= tabUl.length; i++) {
-		if (tabUl[i].classList.contains('edit')) {
-			tabUl[i].classList.remove('edit')
-		} 
-	}
-	
-	// console.log(tabUl[1].classList.contains('edit'));
 }
 
 const changeTodoText = () => {

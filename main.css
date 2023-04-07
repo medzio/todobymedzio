@@ -217,3 +217,8 @@ h1 {
 	background-color: var(--light-blue);
 }
 
+@media  (min-width: 375px) and (max-width: 800px)  {
+    .popup {
+       width: 400px;
+    }
+}
